@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-export default function Loader() {
+function Loader() {
     return (
         <div>
             <div className="progress">
@@ -9,3 +9,5 @@ export default function Loader() {
         </div>
     )
 }
+
+export {Loader}
